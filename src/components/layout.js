@@ -36,9 +36,9 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer style={{ marginTop: 80 }}>
+            © {new Date().getFullYear()}, Designed & Coded by Oliver Gomes, <br></br>Built with
+             <span></span> <a href="https://www.gatsbyjs.org">Gatsby</a>
           </footer>
         </div>
       </>
