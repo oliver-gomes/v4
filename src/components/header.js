@@ -5,13 +5,17 @@ import React from "react"
 import styled from 'styled-components';
 import logo from '../images/logo.png'
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginLeft: `2.5rem` }}>
-    <Link to={props.to} style={styles.aLink}>{props.children}</Link>
+  <li style={{ display: `inline-block` }}>
+    <Link to={props.to} style={props.pageYT ? styles.forYT : styles.aLink}>{props.children}</Link>
   </li>
 )
 
-const Header = ({ siteTitle, }) => (
+
+const Header = ({ siteTitle, newStyle }) => (
   <header
     style={{
       background: `transparent`,
@@ -28,11 +32,15 @@ const Header = ({ siteTitle, }) => (
       }}
     >
       <Link to="/" style={{ background: 'none' }}><img src={logo} width="100" alt="" /></Link>
+
       <ul style={{ listStyle: `none`, float: `right`, marginLeft: 'auto' }}>
-        <ListLink to="/" > Home</ListLink>
-        <ListLink to="/projects/">Projects</ListLink>
-        <ListLink to="/design/">UI/UX</ListLink>
-        <ListLink to="/youtube/">Youtube</ListLink>
+        <ListLink pageYT={newStyle} to="/" style={newStyle ? styles.forYT : styles.aLink}> Home</ListLink>
+        <AniLink cover to="/projects/" bg="#2EEC96" style={newStyle ? styles.forYT : styles.aLink}>Projects</AniLink>
+        <AniLink cover to="/design/" bg="#2EEC96" style={newStyle ? styles.forYT : styles.aLink}>UI/UX</AniLink>
+        <AniLink paintDrip to="/youtube" color="red" style={newStyle ? styles.forYT : styles.aLink}>
+          Youtube
+        </AniLink>
+
       </ul>
     </div>
   </header >
@@ -53,5 +61,12 @@ const styles = {
     color: "#333333",
     backgroundImage: "none",
     textDecoration: "none",
+    marginLeft: `2.5rem`
+  },
+  forYT: {
+    color: "white",
+    backgroundImage: "none",
+    textDecoration: "none",
+    marginLeft: `2.5rem`
   }
 }

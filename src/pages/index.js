@@ -2,16 +2,15 @@ import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
 // import Typist from 'react-typist';
-import { FaLinkedinIn, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub, FaInstagram, FaBehance } from 'react-icons/fa';
 
-import nodeSVG from '../images/tech_node.js.svg'
 
 import styled from 'styled-components'
 
 export default () => (
   <Layout>
 
-    <h1>I am Oliver, nice to meet you !</h1>
+    <h1>I am Oliver, nice to meet you 😄!</h1>
     <h3>Software developer with a focus on Front End.</h3>
     <p>
     I love to design and develop web & mobile apps <br></br>that harmonizes the passion put behind it
@@ -19,10 +18,11 @@ export default () => (
     </p>
 
     <IconList>
-      <a href=""><FaLinkedinIn /></a>
-      <a href=""><FaGithub /></a>
-      <a href=""><FaInstagram /></a>
-      {/* <a href=""><FaEnvelope /></a> */}
+      <a href="https://www.linkedin.com/in/oliver-gomes/"><FaLinkedinIn fontSize={30}/></a>
+      <a href="https://github.com/oliver-gomes"><FaGithub fontSize={30}/></a>
+      <a href="https://www.instagram.com/oliver.codes/"><FaInstagram fontSize={30}/></a>
+      <a href="https://www.behance.net/oliver-gomes/"><FaBehance fontSize={30}/></a>
+    
     </IconList>
     <p >ogomesphoto@gmail.com</p>
     <Float style={{marginBottom: 60, marginTop: 60}}>
@@ -71,9 +71,9 @@ export default () => (
     <TechList><a href="https://reactjs.org/"> <img src="https://unpkg.com/simple-icons@1.9.23/icons/react.svg" width="32" height="32" alt="" /></a>
       <a href="https://redux.js.org/"><img src="https://unpkg.com/simple-icons@latest/icons/redux.svg" width="32" height="32" alt="" /></a>
       <a href="https://www.gatsbyjs.org/"><img src="https://unpkg.com/simple-icons@latest/icons/gatsby.svg" width="32" height="32" alt="" /></a>
-      <a href="https://www.gatsbyjs.org/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/node-dot-js.svg" width="32" height="32" alt="" /></a>
-      <a href="https://www.gatsbyjs.org/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/javascript.svg" width="32" height="32" alt="" /></a>
-      <a href="https://www.gatsbyjs.org/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/css3.svg" width="32" height="32" alt="" /></a>
+      <a href="https://nodejs.org/en/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/node-dot-js.svg" width="32" height="32" alt="" /></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/javascript.svg" width="32" height="32" alt="" /></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/css3.svg" width="32" height="32" alt="" /></a>
       
     </TechList>
 
