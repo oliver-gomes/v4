@@ -2,11 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from 'styled-components'
 
-import movieImg from '../images/react-movie/react-movie.png'
-import main from '../images/react-movie/main.png'
-import mainTwo from '../images/react-movie/2.png'
-import mainThree from '../images/react-movie/3.png'
-import mainFour from '../images/react-movie/4.png'
+import movieImg from './react-movie.png'
+import main from './react-movie/main.png'
+import mainTwo from './react-movie/2.png'
+import mainThree from './react-movie/3.png'
+import mainFour from './react-movie/4.png'
 
 export default () => (
     <Layout><div>
