@@ -49,7 +49,7 @@ export default () => (
       <ProjectDetail >Modern fast movie database web app with React using The Movie DB API.</ProjectDetail>
     </Link>
     {/* 3 */}
-    <Link to="/resume-maker" style={{ color: '#333333' }}>
+    <Link to="/react-weather" style={{ color: '#333333' }}>
       <ProjectTitle className="font">Weather App</ProjectTitle>
       <ProjectDetail >A Weather Finding App that gives real live weather information anywhere <br></br>with openweathermap.org API.</ProjectDetail>
     </Link>
