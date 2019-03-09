@@ -47,7 +47,7 @@ export default () => (
     {/* 2 */}
     <Link to="/resume-maker" style={{ color: '#333333' }}>
       <ProjectTitle className="font">Resume Maker</ProjectTitle>
-      <ProjectDetail >Make Resume, download PDF or print right from the App</ProjectDetail>
+      <ProjectDetail >Create your own Resume, download PDF or print right from the App</ProjectDetail>
     </Link>
     {/* 3 */}
     <Link to="/react-weather" style={{ color: '#333333' }}>
