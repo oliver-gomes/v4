@@ -32,7 +32,7 @@ export default () => (
         <img src={mainFour} alt="" style={{ borderRadius: 10, marginTop: 20 }} />
         <p>When Clicked on any Specific Movies, it brings out more information of the Movies.
             First Section includes a Movie Poster, Plot, Genres, IMDB Rating, Director/s, Running Time, Budget, and Revenue.
-            At the time of this writing, Captain Marvel just got released and so the API still need to be updated from the Revenue count.
+            At the time of this writing, Captain Marvel just got released and so the screenshot didn't have the updated API revenue count.
         </p>
         <p>I usually use the app to find movies to watch, which actors are in the movie, rating to use my time wisely watching a good movie.</p>
     </div></Layout>

@@ -26,7 +26,7 @@ const Layout = ({ children, color }) => (
       }
     `}
     render={data => (
-      <section style={color ? { backgroundColor: 'red', height: '100vh', color: 'white' } : null}>
+      <section style={color ? { backgroundColor: 'red', height: '100%', color: 'white' } : null}>
         <Header siteTitle={data.site.siteMetadata.title} newStyle={color ? true : false} />
         <div
           style={{
