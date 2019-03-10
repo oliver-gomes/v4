@@ -9,7 +9,7 @@ export default () => (
             <h1>Youtube Projects</h1>
             <p>Welcome to my Creative World! Why I call Youtube my Creative World? because here I mostly experiment with new ideas and discoveries.
                 I am very curious about anything exciting and love learning new things and experimenting. I started Photography, Drawing, and Design to Code videos, all while learning,
-                studying, researching them as well as finding ways to present them by teaching myself on how to do design overview and do video editing. Feel free to follow me on Instagram & Youtube</p>
+                studying, researching them as well as finding ways to present them by teaching myself on how to do design overview and do video editing. Check out my projects if curious and feel free to follow me on Instagram & Youtube</p>
 
             <Social>
                 <a href="https://www.instagram.com/oliversjunkyard/" style={{ background: 'none', color: 'white', textDecoration: 'none' }}><div style={{ display: 'flex', flexDirection: 'row', }}><h3>Photography </h3> <FaInstagram fontSize="28" color="white"></FaInstagram></div></a>
