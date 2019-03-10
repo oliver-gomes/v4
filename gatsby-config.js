@@ -4,7 +4,7 @@ module.exports = {
     description: `Oliver Gomes is a Software Engineer Focusing on Fron End. He specilizes in React, React Native, Node, Gatsby, Redux, CSS and design UI UX`,
     author: `Oliver Gomes`,
   },
-  pathPrefix: "/portfolio-v4",
+  pathPrefix: "/v4",
   plugins: [
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
