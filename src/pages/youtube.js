@@ -7,9 +7,9 @@ export default () => (
 
         <div >
             <h1>Youtube Projects</h1>
-            <p>This page is where my creativity really shines, I would say. I am a very curious person, so if i find someone doing mindblowing photography, i would go out of my way to try
+            <p>Welcome to my . I am a very curious person, so if i find someone doing mindblowing photography, i would go out of my way to try
                 learning from it and eventually creating my own. Over the years, I started Photography, Drawing, and Design to Code videos,
-                all of the skills acquired by making these contents made me much stronger individuals </p>
+                all of the skills acquired by making these contents made me much stronger person </p>
 
             <Social>
                 <a href="https://www.instagram.com/oliversjunkyard/" style={{ background: 'none', color: 'white', textDecoration: 'none' }}><div style={{ display: 'flex', flexDirection: 'row', }}><h3>Photography </h3> <FaInstagram fontSize="28" color="white"></FaInstagram></div></a>
