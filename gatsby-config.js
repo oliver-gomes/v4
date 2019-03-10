@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Oliver Gomes Portfolio`,
+    description: `Oliver Gomes is a Software Engineer Focusing on Fron End. He specilizes in React, React Native, Node, Gatsby, Redux, CSS and design UI UX`,
+    author: `Oliver Gomes`,
   },
-  pathPrefix: "/v4",
+  pathPrefix: "/portfolio-v4",
   plugins: [
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
@@ -12,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: "./src/favicon.png",
+        logo: "./src/favicon.ico",
 
         // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
