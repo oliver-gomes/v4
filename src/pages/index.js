@@ -68,9 +68,10 @@ export default () => (
     </Float>
 
 
-    <p>Tech I like to Work with</p>
-    <TechList><a href="https://reactjs.org/"> <img src="https://unpkg.com/simple-icons@1.9.23/icons/react.svg" width="32" height="32" alt="" /></a>
-      <a href="https://redux.js.org/"><img src="https://unpkg.com/simple-icons@latest/icons/redux.svg" width="32" height="32" alt="" /></a>
+    <p className="test">Tech I like to Work with</p>
+    <TechList>
+      <a href="https://reactjs.org/" > <img className="icon" src="https://unpkg.com/simple-icons@1.9.23/icons/react.svg" width="32" height="32" alt="" /></a>
+      <a href="https://redux.js.org/"><img className="icon" src="https://unpkg.com/simple-icons@latest/icons/redux.svg" width="32" height="32" alt="" /></a>
       <a href="https://www.gatsbyjs.org/"><img src="https://unpkg.com/simple-icons@latest/icons/gatsby.svg" width="32" height="32" alt="" /></a>
       <a href="https://nodejs.org/en/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/node-dot-js.svg" width="32" height="32" alt="" /></a>
       <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/"><img src="https://unpkg.com/simple-icons@1.9.23/icons/javascript.svg" width="32" height="32" alt="" /></a>
@@ -102,7 +103,13 @@ margin: 20px 0 10px 0;
 
 a {
   background: none;
+}
 
+@media only screen and (max-width: 480px) {
+  width: 50%;
+  a  img {
+    margin-right: 40px;
+  }
 }
 `
 

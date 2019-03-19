@@ -100,6 +100,14 @@ a {
   background: none;
 
 }
+
+
+@media only screen and (max-width: 480px) {
+    width: 50%;
+  a  img {
+    margin-right: 40px;
+  }
+}
 `
 const Button = styled.div`
 
@@ -112,5 +120,9 @@ margin-bottom: 20px;
 
 :hover {
     cursor: pointer
+}
+
+@media only screen and (max-width: 480px) {
+    width: 30%;
 }
 `

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import styled from 'styled-components'
 
 import { FaGithub } from 'react-icons/fa';
 export default () => (
@@ -8,7 +8,7 @@ export default () => (
         {/* <h1>Other Projects</h1> */}
         <p>When I am free, I am usually waving my wand and casting away newly discovered spells to build creative projects</p>
         <iframe src="https://giphy.com/embed/6CovzgyTig7M4" width="480" height="304" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/magic-wand-hifw-6CovzgyTig7M4"></a></p>
-        <div>
+        <Main>
             <h1>Find out all about my fun side projects</h1>
             <table>
                 <thead>
@@ -78,7 +78,14 @@ export default () => (
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </Main>
     </div ></Layout >
-
 )
+
+
+const Main = styled.div`
+
+@media only screen and (max-width: 480px) {
+  
+}
+`
