@@ -12,7 +12,6 @@ export default () => (
                 studying, researching them as well as finding ways to present them by teaching myself on how to do design overview and do video editing. Check out my projects if curious and feel free to follow me on Instagram & Youtube</p>
 
             <Social>
-
                 <a href="https://www.instagram.com/oliversjunkyard" style={{ background: 'none', color: 'white', textDecoration: 'none' }}><div style={{ display: 'flex', flexDirection: 'row', color: "#EAEEE9" }}><h3>Photography </h3> <FaInstagram fontSize="28" color="#EAEEE9"></FaInstagram></div></a>
                 <a href="https://www.instagram.com/oliver.codes/" style={{ background: 'none', color: 'white', textDecoration: 'none' }}><div style={{ display: 'flex', flexDirection: 'row', color: "#EAEEE9" }}><h3>Coding </h3> <FaInstagram fontSize="28" color="#EAEEE9"></FaInstagram></div></a>
             </Social>
@@ -54,7 +53,6 @@ export default () => (
 
 const Social = styled.div`
 width: 40%;
-
 `
 
 const Video = styled.div`
