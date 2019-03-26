@@ -2,11 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from "styled-components"
 import pinterestImg from "../images/pinterest-clone/pinterest-main.png"
+import uploadImg from "../images/pinterest-clone/upload-page.png"
+import profileImg from "../images/pinterest-clone/view-profile.png"
 
 export default () => (
   <Layout>
     <div>
-      <h1>Weather App</h1>
+      <h1>Pinterest Clone App</h1>
       <img src={pinterestImg} alt="" />
 
       <Tags>
@@ -32,6 +34,19 @@ export default () => (
         A simple Pinterest Clone App that help user collect pictures by
         uploading them. App made using Node, Express and Database handled by
         MongoDB, Mongoose.
+      </p>
+      <img src={uploadImg} alt="" />
+      <p>
+        Upload image by clicking on the Upload button on the right hand side of
+        the Navbar. This will take user to Upload Page where a user-friendly
+        board was made to make upload easy. The upload button comes along with
+        Title and Description for the images to be uploaded
+      </p>
+      <img src={profileImg} alt="" />
+      <p>
+        After the upload the image appears on the main page with a View Profile
+        options.This View Profile button takes the image to their profile page
+        where you can delete the uploaded image if needed.
       </p>
     </div>
   </Layout>
