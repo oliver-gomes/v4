@@ -35,6 +35,21 @@ export default () => (
           </thead>
           <tbody>
             <tr>
+              <td>Take Note App</td>
+              <td>React & Firebase</td>
+              <td>
+                <a href="https://take-note-app.firebaseapp.com/">Link to App</a>
+              </td>
+              <td style={{ paddingLeft: 38 }}>
+                <a
+                  href="https://github.com/oliver-gomes/take-note-reactfirebase"
+                  style={{ backgroundImage: "none" }}
+                >
+                  <FaGithub color="black" />
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>Skypey App</td>
               <td>React/Redux</td>
               <td>
