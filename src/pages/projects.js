@@ -45,7 +45,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[3].node.childImageSharp.fixed}
+                  fixed={data.source.edges[1].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -66,7 +66,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[2].node.childImageSharp.fixed}
+                  fixed={data.source.edges[0].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -87,7 +87,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[6].node.childImageSharp.fixed}
+                  fixed={data.source.edges[5].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -110,7 +110,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[1].node.childImageSharp.fixed}
+                  fixed={data.source.edges[8].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -134,7 +134,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[0].node.childImageSharp.fixed}
+                  fixed={data.source.edges[4].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -156,7 +156,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[8].node.childImageSharp.fixed}
+                  fixed={data.source.edges[7].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -238,7 +238,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[7].node.childImageSharp.fixed}
+                  fixed={data.source.edges[6].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -261,7 +261,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[5].node.childImageSharp.fixed}
+                  fixed={data.source.edges[3].node.childImageSharp.fixed}
                 />
               </td>
               <td>
@@ -284,7 +284,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[4].node.childImageSharp.fixed}
+                  fixed={data.source.edges[2].node.childImageSharp.fixed}
                 />
               </td>
 
