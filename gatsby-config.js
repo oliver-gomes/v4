@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Oliver Gomes Portfolio`,
-    description: `Oliver Gomes is a Software Engineer Focusing on Fron End. He specilizes in React, React Native, Node, Gatsby, Redux, CSS and design UI UX`,
+    description: `Oliver Gomes is a Software Engineer Focusing on MERN Stack Tech. He specilizes in React, React Native, Node, Gatsby, Redux, CSS and design UI UX`,
     author: `Oliver Gomes`,
   },
   pathPrefix: "/v4",

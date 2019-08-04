@@ -35,6 +35,21 @@ export default () => (
           </thead>
           <tbody>
             <tr>
+              <td>Typescript React Todo</td>
+              <td>Typescript/React</td>
+              <td>
+                <a href="http://react-typescript-todo.surge.sh/">Link to App</a>
+              </td>
+              <td style={{ paddingLeft: 38 }}>
+                <a
+                  href="https://github.com/oliver-gomes/react-type-todo"
+                  style={{ backgroundImage: "none" }}
+                >
+                  <FaGithub color="black" />
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>Take Note App</td>
               <td>React & Firebase</td>
               <td>
