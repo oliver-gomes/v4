@@ -163,7 +163,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query imageQuery {
-    source: allFile(filter: { absolutePath: { regex: "/design/" } }) {
+    source: allFile(filter: { absolutePath: { regex: "/images/design/" } }) {
       edges {
         node {
           childImageSharp {
