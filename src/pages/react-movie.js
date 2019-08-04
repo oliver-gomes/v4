@@ -2,17 +2,23 @@ import React from "react"
 import Layout from "../components/layout"
 import styled from "styled-components"
 
-import movieImg from "../images/react-movie/react-movie.png"
-import main from "../images/react-movie/main.png"
-import mainTwo from "../images/react-movie/2.png"
-import mainThree from "../images/react-movie/3.png"
-import mainFour from "../images/react-movie/4.png"
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
-export default () => (
+export default ({ data }) => (
   <Layout>
+    <div style={{ textAlign: "center" }} />
+
+    <div style={{ textAlign: "center" }} />
     <div>
       <h1>React Movie</h1>
-      <img src={movieImg} alt="" />
+      <div style={{ textAlign: "center" }}>
+        <Img
+          imgStyle={{ objectFit: "cover" }}
+          style={{ margin: "1rem", borderRadius: "20px" }}
+          fixed={data.source.edges[0].node.childImageSharp.fixed}
+        />
+      </div>
 
       <Tags>
         <ButtonTag style={{ marginRight: 10 }}>React</ButtonTag>
@@ -32,21 +38,45 @@ export default () => (
         <ButtonGit>Github</ButtonGit>
       </a>
 
-      <img src={main} alt="" style={{ borderRadius: 10, marginTop: 20 }} />
+      <div style={{ textAlign: "center" }}>
+        <Img
+          imgStyle={{ objectFit: "cover" }}
+          style={{ margin: "1rem", borderRadius: "20px" }}
+          fixed={data.source.edges[2].node.childImageSharp.fixed}
+        />
+      </div>
       <p>
         Main Section of the App is kept very simple so it's easier to navigate
         around the app. It mainly consist of Featured Movie Poster which changes
         according to latest most buzzed movie. In addition, it have name of the
         movie, short Plot and Search bar to search for any movie
       </p>
-      <img src={mainTwo} alt="" style={{ borderRadius: 10, marginTop: 20 }} />
+      <div style={{ textAlign: "center" }}>
+        <Img
+          imgStyle={{ objectFit: "cover" }}
+          style={{ margin: "1rem", borderRadius: "20px" }}
+          fixed={data.source.edges[4].node.childImageSharp.fixed}
+        />
+      </div>
       <p>
         Scrolling down after the Main Section is List of all the New Movies that
         are out on Theaters at that given time. This section have a Load More
         Button at the bottom when clicked it load more new Movies.
       </p>
-      <img src={mainThree} alt="" style={{ borderRadius: 10, marginTop: 20 }} />
-      <img src={mainFour} alt="" style={{ borderRadius: 10, marginTop: 20 }} />
+      <div style={{ textAlign: "center" }}>
+        <Img
+          imgStyle={{ objectFit: "cover" }}
+          style={{ margin: "1rem", borderRadius: "20px" }}
+          fixed={data.source.edges[3].node.childImageSharp.fixed}
+        />
+      </div>
+      <div style={{ textAlign: "center" }}>
+        <Img
+          imgStyle={{ objectFit: "cover" }}
+          style={{ margin: "1rem", borderRadius: "20px" }}
+          fixed={data.source.edges[1].node.childImageSharp.fixed}
+        />
+      </div>
       <p>
         When Clicked on any Specific Movies, it brings out more information of
         the Movies. First Section includes a Movie Poster, Plot, Genres, IMDB
@@ -61,6 +91,24 @@ export default () => (
     </div>
   </Layout>
 )
+
+export const query = graphql`
+  query movieQuery {
+    source: allFile(
+      filter: { absolutePath: { regex: "/images/react-movie/" } }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            fixed(width: 820, height: 500) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+  }
+`
 
 const Button = styled.div`
   border: 1px solid #2eec96;
