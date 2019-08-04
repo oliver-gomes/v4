@@ -13,7 +13,7 @@ export default ({ data }) => (
         <Img
           imgStyle={{ objectFit: "cover" }}
           style={{ margin: "1rem", borderRadius: "20px" }}
-          fixed={data.source.edges[2].node.childImageSharp.fixed}
+          fixed={data.source.edges[3].node.childImageSharp.fixed}
         />
       </div>
 
@@ -45,7 +45,7 @@ export default ({ data }) => (
       >
         <Img
           style={{ borderRadius: "20px" }}
-          fixed={data.source.edges[3].node.childImageSharp.fixed}
+          fixed={data.source.edges[2].node.childImageSharp.fixed}
         />
       </div>
 

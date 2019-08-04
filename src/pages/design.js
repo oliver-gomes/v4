@@ -84,7 +84,7 @@ export default ({ data }) => (
           <h3>BMI Calculator App Design </h3>
           <Img
             objectFit="cover"
-            fixed={data.source.edges[5].node.childImageSharp.fixed}
+            fixed={data.source.edges[0].node.childImageSharp.fixed}
           />
           <a href="https://www.behance.net/gallery/75656331/BMI-Calculator-App">
             <Button>Behance</Button>
@@ -99,7 +99,7 @@ export default ({ data }) => (
         {/* 3 */}
         <div style={{ paddingBottom: 30 }}>
           <h3>T-Shirt Design for Udacity </h3>
-          <Img fixed={data.source.edges[1].node.childImageSharp.fixed} />
+          <Img fixed={data.source.edges[2].node.childImageSharp.fixed} />
           <a href="https://www.behance.net/gallery/71510745/T-Shirt-Design-for-UdacityCharity-Project">
             <Button>Behance</Button>
           </a>
@@ -113,7 +113,7 @@ export default ({ data }) => (
         {/* 4 */}
         <div style={{ paddingBottom: 30 }}>
           <h3>Ride Share App Design </h3>
-          <Img fixed={data.source.edges[2].node.childImageSharp.fixed} />
+          <Img fixed={data.source.edges[3].node.childImageSharp.fixed} />
           <a href="https://www.behance.net/gallery/72553979/Ride-Share-App">
             <Button>Behance</Button>
           </a>
@@ -127,7 +127,7 @@ export default ({ data }) => (
 
         <div style={{ paddingBottom: 30 }}>
           <h3>Photo Album Mobile App Design </h3>
-          <Img fixed={data.source.edges[4].node.childImageSharp.fixed} />
+          <Img fixed={data.source.edges[5].node.childImageSharp.fixed} />
           <a href="https://www.behance.net/gallery/72553979/Ride-Share-App">
             <Button>Behance</Button>
           </a>
@@ -140,7 +140,7 @@ export default ({ data }) => (
         {/* 6 */}
         <div style={{ paddingBottom: 30 }}>
           <h3>Design to React 01 </h3>
-          <Img fixed={data.source.edges[0].node.childImageSharp.fixed} />
+          <Img fixed={data.source.edges[1].node.childImageSharp.fixed} />
           <a href="https://www.behance.net/gallery/76714199/Design-to-React-Landing-Page">
             <Button>Behance</Button>
           </a>
@@ -150,7 +150,7 @@ export default ({ data }) => (
         {/* 7 */}
         <div style={{ paddingBottom: 30 }}>
           <h3>Design to React 02 </h3>
-          <Img fixed={data.source.edges[3].node.childImageSharp.fixed} />
+          <Img fixed={data.source.edges[4].node.childImageSharp.fixed} />
           <a href="https://www.behance.net/gallery/77017863/Design-to-React-Event-Page">
             <Button>Behance</Button>
           </a>
