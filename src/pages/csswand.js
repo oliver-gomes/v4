@@ -5,12 +5,6 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 
-import movieImg from "../images/react-movie/react-movie.png"
-import main from "../images/react-movie/main.png"
-import mainTwo from "../images/react-movie/2.png"
-import mainThree from "../images/react-movie/3.png"
-import mainFour from "../images/react-movie/4.png"
-
 export default ({ data }) => (
   <Layout>
     <div>
@@ -56,10 +50,8 @@ export default ({ data }) => (
       </div>
 
       <p>
-        Main Section of the App is kept very simple so it's easier to navigate
-        around the app. It mainly consist of Featured Movie Poster which changes
-        according to latest most buzzed movie. In addition, it have name of the
-        movie, short Plot and Search bar to search for any movie
+        Took a modern design approach to represent this app with focus on
+        minimal styling.
       </p>
 
       <div
@@ -73,9 +65,9 @@ export default ({ data }) => (
       </div>
 
       <p>
-        Scrolling down after the Main Section is List of all the New Movies that
-        are out on Theaters at that given time. This section have a Load More
-        Button at the bottom when clicked it load more new Movies.
+        Then you click on your chosen styling a modal window will pop-up
+        showcasing the HTML and CSS code along with Copy button. The Copy button
+        copies the code and allows the user to paste it in their work
       </p>
       <div
         style={{
@@ -87,15 +79,13 @@ export default ({ data }) => (
         <Img fixed={data.source.edges[1].node.childImageSharp.fixed} />
       </div>
       <p>
-        When Clicked on any Specific Movies, it brings out more information of
-        the Movies. First Section includes a Movie Poster, Plot, Genres, IMDB
-        Rating, Director/s, Running Time, Budget, and Revenue. At the time of
-        this writing, Captain Marvel just got released and so the screenshot
-        didn't have the updated API revenue count.
+        New Features are added timely and the newest one is a color picker.
+        Where user can find out their favorite color from the picker and copy it
+        to use it in their project
       </p>
       <p>
-        I usually use the app to find movies to watch, which actors are in the
-        movie, rating to use my time wisely watching a good movie.
+        This app became popular on Product Hunt and was voted #2 Product of the
+        Day. Feel free to check it out and use it in your workspace
       </p>
     </div>
   </Layout>
