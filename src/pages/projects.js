@@ -33,6 +33,7 @@ export default ({ data }) => (
             <tr>
               <th>Name</th>
               <th>Tech</th>
+              <th>Preview</th>
               <th>Link</th>
               <th>Github</th>
             </tr>
