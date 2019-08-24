@@ -14,7 +14,7 @@ export default class extends React.Component {
     return (
       <Layout>
         <h1>I am Oliver, nice to meet you 😄!</h1>
-        <h3>Software developer with focus on Front End Development</h3>
+        <h3>Software developer with focus on Fullstack Development</h3>
         <p>
           I love to design and develop web & mobile apps <br />
           that harmonizes the passion put behind it
