@@ -40,6 +40,27 @@ export default ({ data }) => (
           </thead>
           <tbody>
             <tr>
+              <td>React Dictionary</td>
+              <td>React Hooks & Firebase</td>
+              <td>
+                <Img
+                  objectFit="cover"
+                  fixed={data.source.edges[12].node.childImageSharp.fixed}
+                />
+              </td>
+              <td>
+                <a href="http://react-dictionary.surge.sh/">Link to App</a>
+              </td>
+              <td style={{ paddingLeft: 38 }}>
+                <a
+                  href="https://github.com/oliver-gomes/react-dictionary"
+                  style={{ backgroundImage: "none" }}
+                >
+                  <FaGithub color="black" />
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>React Hooks Todo</td>
               <td>React Hooks</td>
               <td>
