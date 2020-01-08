@@ -147,7 +147,6 @@ export default ({ data }) => (
           <p>From my Design to React Series</p>
         </div>
 
-
         {/* 7 */}
         <div style={{ paddingBottom: 30 }}>
           <h3>Design to React 02 </h3>
