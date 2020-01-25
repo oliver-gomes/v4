@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url("./background.png");
+  background-size: cover;
+  height: 100vh;
+  color: #6fcae6;
+}
+
+#container {
+  background: white;
+  width: 360px;
+  margin: 100px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: -4px 15px 77px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: -4px 15px 77px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: -4px 15px 77px 0px rgba(0, 0, 0, 0.52);
+}
+
+.fa-plus {
+  float: right;
+}
+
+h1 {
+  color: rgb(161, 223, 241);
+  text-align: center;
+  margin: 0;
+  padding: 20px 20px;
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input {
+  padding: 20px 13px 20px 20px;
+  font-size: 18px;
+  background-color: white;
+  width: 100%;
+  color: #6fcae6;
+  border: 3px solid rgba(0, 0, 0, 0);
+  text-indent: 16px;
+  border-radius: 20px;
+}
+
+input:focus {
+  background: #fff;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: #f5f4f4;
+  height: 60px;
+  border-radius: 20px;
+  line-height: 60px;
+}
+
+.p {
+  margin-left: 40px;
+}
+
+li:nth-child(2n) {
+  background: white;
+}
+
+li:hover span .fa {
+  width: 55px;
+  opacity: 1;
+}
+
+span .fa {
+  background: #e74c3c;
+  height: 60px;
+  float: right;
+  color: white;
+  padding: 20px 20px;
+  transition: 0.2s;
+  width: 0px;
+  display: inline-block;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.completed {
+  color: #6fcae6;
+  text-decoration: line-through;
+}
+
+input::placeholder {
+  text-indent: 16px;
+  color: #6fcae6;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 40px;
+}

@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: 'Scope One', serif;
+    background-image: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+h1 {
+    font-family: 'Scope One', serif;
+    /* font-family: Monoton; */
+    font-weight: bold;
+    color: #5699B6;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+h2 {
+    color: #5EAFD2;
+}
+
+form {
+    color: #5699B6;
+}
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.btn {
+    background-color: #5EAFD2;
+    font-family: 'Scope One', serif;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 8px;
+    color: white;
+    font-size: 16px;
+}
