@@ -40,19 +40,49 @@ export default ({ data }) => (
           </thead>
           <tbody>
             <tr>
+              <td>Covid-19 Tracker</td>
+              <td>React Hooks</td>
+              <td>
+                <Img
+                  objectFit="cover"
+                  fixed={data.source.edges[6].node.childImageSharp.fixed}
+                />
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="http://covid-19-tracker-react.surge.sh/"
+                >
+                  Link to App
+                </a>
+              </td>
+              <td style={{ paddingLeft: 38 }}>
+                <a
+                  target="_blank"
+                  href="https://github.com/oliver-gomes/covid19-tracker"
+                  style={{ backgroundImage: "none" }}
+                >
+                  <FaGithub color="black" />
+                </a>
+              </td>
+            </tr>
+            <tr>
               <td>React Dictionary</td>
               <td>React Hooks & Firebase</td>
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[12].node.childImageSharp.fixed}
+                  fixed={data.source.edges[3].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://react-dictionary.surge.sh/">Link to App</a>
+                <a target="_blank" href="http://react-dictionary.surge.sh/">
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-dictionary"
                   style={{ backgroundImage: "none" }}
                 >
@@ -66,14 +96,17 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[11].node.childImageSharp.fixed}
+                  fixed={data.source.edges[0].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://hook-todo.surge.sh/">Link to App</a>
+                <a target="_blank" href="http://hook-todo.surge.sh/">
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/hook-list"
                   style={{ backgroundImage: "none" }}
                 >
@@ -91,10 +124,16 @@ export default ({ data }) => (
                 />
               </td>
               <td>
-                <a href="http://react-typescript-todo.surge.sh/">Link to App</a>
+                <a
+                  target="_blank"
+                  href="http://react-typescript-todo.surge.sh/"
+                >
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-type-todo"
                   style={{ backgroundImage: "none" }}
                 >
@@ -108,14 +147,20 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[0].node.childImageSharp.fixed}
+                  fixed={data.source.edges[2].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="https://take-note-app.firebaseapp.com/">Link to App</a>
+                <a
+                  target="_blank"
+                  href="https://take-note-app.firebaseapp.com/"
+                >
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/take-note-reactfirebase"
                   style={{ backgroundImage: "none" }}
                 >
@@ -129,16 +174,20 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[5].node.childImageSharp.fixed}
+                  fixed={data.source.edges[9].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://skypey-oliver-reactredux.surge.sh/">
+                <a
+                  target="_blank"
+                  href="http://skypey-oliver-reactredux.surge.sh/"
+                >
                   Link to App
                 </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-skypey"
                   style={{ backgroundImage: "none" }}
                 >
@@ -152,17 +201,21 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[8].node.childImageSharp.fixed}
+                  fixed={data.source.edges[11].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="https://expo.io/@ogomes/twin-modern-calculator">
+                <a
+                  target="_blank"
+                  href="https://expo.io/@ogomes/twin-modern-calculator"
+                >
                   Link to App
                 </a>
               </td>
 
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-native-calculator"
                   style={{ backgroundImage: "none" }}
                 >
@@ -176,15 +229,21 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[4].node.childImageSharp.fixed}
+                  fixed={data.source.edges[7].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="https://expo.io/@ogomes/bmi-calculator">Link to App</a>
+                <a
+                  target="_blank"
+                  href="https://expo.io/@ogomes/bmi-calculator"
+                >
+                  Link to App
+                </a>
               </td>
 
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-native-bmi"
                   style={{ backgroundImage: "none" }}
                 >
@@ -198,15 +257,22 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[7].node.childImageSharp.fixed}
+                  fixed={data.source.edges[8].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://synonymous-class.surge.sh/">Link to App</a>
+                <a
+                  target="_blank"
+                  href="http://synonymous-class.surge.sh/"
+                  target="_blank"
+                >
+                  Link to App
+                </a>
               </td>
 
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/v-school-react/tree/master/meme-generator"
                   style={{ backgroundImage: "none" }}
                 >
@@ -220,14 +286,17 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[9].node.childImageSharp.fixed}
+                  fixed={data.source.edges[12].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://ordinary-brick.surge.sh/">Link to App</a>
+                <a target="_blank" href="http://ordinary-brick.surge.sh/">
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-stephg/tree/master/videos"
                   style={{ backgroundImage: "none" }}
                 >
@@ -241,14 +310,17 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[10].node.childImageSharp.fixed}
+                  fixed={data.source.edges[13].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="http://exuberant-nest.surge.sh/">Link to App</a>
+                <a target="_blank" href="http://exuberant-nest.surge.sh/">
+                  Link to App
+                </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/react-stephg/tree/master/pics"
                   style={{ backgroundImage: "none" }}
                 >
@@ -261,12 +333,16 @@ export default ({ data }) => (
               <td>React </td>
               <td />
               <td>
-                <a href="https://oliver-gomes.github.io/projects/robofriends-app/">
+                <a
+                  target="_blank"
+                  href="https://oliver-gomes.github.io/projects/robofriends-app/"
+                >
                   Link to App
                 </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/webdev-2018/tree/master/react-app/robofriends"
                   style={{ backgroundImage: "none" }}
                 >
@@ -280,16 +356,20 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[6].node.childImageSharp.fixed}
+                  fixed={data.source.edges[10].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="https://oliver-gomes.github.io/projects/memory-game/">
+                <a
+                  target="_blank"
+                  href="https://oliver-gomes.github.io/projects/memory-game/"
+                >
                   Link to App
                 </a>
               </td>
               <td style={{ paddingLeft: 38 }}>
                 <a
+                  target="_blank"
                   href="https://github.com/oliver-gomes/frontend-nanodegree-memory-game"
                   style={{ backgroundImage: "none" }}
                 >
@@ -303,11 +383,14 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[3].node.childImageSharp.fixed}
+                  fixed={data.source.edges[11].node.childImageSharp.fixed}
                 />
               </td>
               <td>
-                <a href="https://oliver-gomes.github.io/projects/color-game/">
+                <a
+                  target="_blank"
+                  href="https://oliver-gomes.github.io/projects/color-game/"
+                >
                   Link to App
                 </a>
               </td>
@@ -326,7 +409,7 @@ export default ({ data }) => (
               <td>
                 <Img
                   objectFit="cover"
-                  fixed={data.source.edges[2].node.childImageSharp.fixed}
+                  fixed={data.source.edges[5].node.childImageSharp.fixed}
                 />
               </td>
 
