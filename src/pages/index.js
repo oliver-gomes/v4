@@ -76,7 +76,7 @@ export default class extends React.Component {
                 paddingBottom: "2px",
               }}
             >
-              Voted #2 Product of the Day on Product Hunt w/ 850+ upvotes
+              Voted #2 Product of the Day on Product Hunt w/ 931+ upvotes
             </span>
             <br /> Easy Copy-Paste Beautiful CSS That can be easily customized
             further at your own choice
