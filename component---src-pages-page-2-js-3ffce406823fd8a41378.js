@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{p5nM:function(e,t,r){"use strict";r.r(t);var a=r("q1tI"),n=r.n(a),l=r("Bl7J");t.default=function(){return n.a.createElement(l.a,null,n.a.createElement("div",null,n.a.createElement("h1",null,"Youtube Projects"),n.a.createElement("iframe",{width:"560",height:"315",src:"https://www.youtube.com/embed/TxLjRV2rMgo",frameborder:"0",allow:"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",allowfullscreen:!0})))}}}]);
+//# sourceMappingURL=component---src-pages-page-2-js-3ffce406823fd8a41378.js.map
